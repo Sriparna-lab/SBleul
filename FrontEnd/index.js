@@ -160,8 +160,8 @@ async function deleatingWorks() {
      method: "DELETE",
      headers:{'Content-Type': 'application/json'},
           }
-       fetch("http://localhost:5678/api/works/"+id,can)   
-       const response = fetch("http://localhost:5678/api/works/+id,can")
+       
+        fetch("http://localhost:5678/api/works/"+id,can)
       
         .then((response) => {
         if(!response.ok); {
